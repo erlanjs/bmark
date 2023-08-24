@@ -155,6 +155,7 @@ a {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  box-shadow: 2px 4px 55px 0px rgba(0, 0, 0, 0.11);
 }
 
 .box img {
@@ -238,5 +239,13 @@ a {
   }
   .title-head p {
     text-align: center;
+  }
+  .box h2 {
+    font-size: 20px;
+  }
+
+  .box h1 {
+    font-size: 30px;
+    white-space: normal;
   }
 }
